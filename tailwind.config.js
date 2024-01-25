@@ -4,8 +4,11 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
-  theme: {
-    extend: {},
+  theme: {extend: {
+      fontFamily: {
+        'oswald': ['Oswald', 'sans-serif'],
+      }
+    }
   },
   /* eslint-env node */
   plugins: [require("daisyui")],
