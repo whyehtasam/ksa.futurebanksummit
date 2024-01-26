@@ -26,13 +26,14 @@ const Navbar = () => {
                 <ul className="menu menu-horizontal flex justify-evenly items-center w-[830px] cursor-pointer">
                   {/* Navbar menu content here */}
                   <li className="mx-2 text-center h-fit hover:text-white ">HOME</li>
+                  <li className="mx-2 text-center h-fit hover:text-white ">EVENT DETAILS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">SCHEDULE</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">AWARDS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">GALLERY</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">CONTACT US</li>
-                  <button className="btn no-animation bg-sky-500 text-slate-50 border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
+                  <button className="btn no-animation bg-sky-500 hover:text-white border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
                 </ul>
               </div>
             </div>
