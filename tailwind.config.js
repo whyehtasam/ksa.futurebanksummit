@@ -7,6 +7,8 @@ export default {
   theme: {extend: {
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
+        'roboto': ['Roboto', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif']
       }
     }
   },

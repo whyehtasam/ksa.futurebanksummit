@@ -2,44 +2,59 @@
 @tailwind components;
 @tailwind utilities;
 
-.slick-slider{
-    width: 100%;
-    position: absolute;
-    left: 0;
+.slick-slider {
+  width: 100%;
+  position: relative;
+  left: 0;
 }
 .slick-slider > .slick-prev {
-    margin-left: -20px;
+  margin-left: -20px;
 }
 .slick-slider > .slick-prev::before {
-    font-size: 25px;
+  font-size: 25px;
 }
 .slick-slider > .slick-next::before {
-    font-size: 25px;
+  font-size: 25px;
 }
 .slick-slider > .slick-next {
-    margin-right: -20px;
+  margin-right: -20px;
 }
 .slick-dots {
-    bottom: 12px;
-    
+  bottom: 12px;
 }
-*{
-    box-sizing: border-box;
+* {
+  box-sizing: border-box;
 }
 
-/* Add this CSS to your styles *//* Add this CSS to your styles */
+/* Add this CSS to your styles */ /* Add this CSS to your styles */
 .slow-transition-transform {
-    transition-property: transform;
-    transition-duration: 3s; /* You can adjust the duration as needed */
-    transition-timing-function: ease-in-out;
+  transition-property: transform;
+  transition-duration: 3s; /* You can adjust the duration as needed */
+  transition-timing-function: ease-in-out;
 }
 
 .slow-transition-transform:hover {
-    transform: scale(1.25);
+  transform: scale(1.25);
 }
 .slick-next:before {
-    content: '❯';
+  content: "❯";
 }
 .slick-prev:before {
-    content: '❮';
+  content: "❮";
 }
+
+.event-overview {
+  background: url(./assets/event-overview-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+opacity: 0.09;
+  
+}
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
