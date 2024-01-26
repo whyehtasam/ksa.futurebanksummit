@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.slick-slider{
+    width: 100%;
+    position: absolute;
+    left: 0;
+}
+.slick-slider > .slick-prev {
+    margin-left: -20px;
+}
+.slick-slider > .slick-prev::before {
+    font-size: 25px;
+}
+.slick-slider > .slick-next::before {
+    font-size: 25px;
+}
+.slick-slider > .slick-next {
+    margin-right: -20px;
+}
+.slick-dots {
+    bottom: 12px;
+    
+}
+*{
+    box-sizing: border-box;
+}
