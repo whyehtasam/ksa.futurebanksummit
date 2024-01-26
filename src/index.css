@@ -26,3 +26,14 @@
 *{
     box-sizing: border-box;
 }
+
+/* Add this CSS to your styles *//* Add this CSS to your styles */
+.slow-transition-transform {
+    transition-property: transform;
+    transition-duration: 3s; /* You can adjust the duration as needed */
+    transition-timing-function: ease-in-out;
+}
+
+.slow-transition-transform:hover {
+    transform: scale(1.25);
+}

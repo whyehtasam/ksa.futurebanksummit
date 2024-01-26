@@ -7,7 +7,7 @@ const Navbar = () => {
         <input id="my-drawer-3" type="checkbox" className="drawer-toggle" />
         <div className="drawer-content flex flex-col">
           {/* Navbar */}
-          <div className="w-full navbar bg-blue-400 lg:h-28 h-20 bg-opacity-60 text-white text-opacity-80 ">
+          <div className="w-full navbar bg-blue-400 lg:h-28 h-20 bg-opacity-60 text-white text-opacity-80 fixed top-0 z-50">
             <div className="flex-none lg:hidden">
               <label htmlFor="my-drawer-3" aria-label="open sidebar" className="btn btn-square btn-ghost" >
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-6 h-6 stroke-current">
@@ -20,7 +20,7 @@ const Navbar = () => {
                 </svg>
               </label>
             </div>
-            <div className="container w-10/12 mx-auto flex justify-between h-full font-oswald">
+            <div className="container w-10/12 mx-auto flex justify-between h-full font-oswald ">
               <div className="h-full "><img src={logo} alt="logo" className='h-full object-contain p-2 lg:p-4 md:p-4 text-white' /></div>
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal flex justify-evenly items-center w-[830px] cursor-pointer">
