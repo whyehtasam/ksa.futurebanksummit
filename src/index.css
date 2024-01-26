@@ -37,3 +37,9 @@
 .slow-transition-transform:hover {
     transform: scale(1.25);
 }
+.slick-next:before {
+    content: '❯';
+}
+.slick-prev:before {
+    content: '❮';
+}
