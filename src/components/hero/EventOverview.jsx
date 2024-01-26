@@ -1,7 +1,7 @@
 import img from "../../assets/event-overview-left.png";
 const EventOverview = () => {
   return (
-    <section className="event-main h-auto flex mb-4 bg-no-repeat relative justify-center items-center bg-white">
+    <section className="event-main h-auto flex  bg-no-repeat relative justify-center items-center bg-white">
       <section className="event-overview h-[646px] w-full "></section>
       <div className="absolute top-10 left-0 right-0 bottom-0 h-[88%] w-10/12 flex justify-evenly mx-auto border-red-600 p-10">
         <div className="event-img h-full flex-1 flex justify-center items-center object-contain ">
