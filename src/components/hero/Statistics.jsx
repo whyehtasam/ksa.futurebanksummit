@@ -3,8 +3,8 @@ import CountUp from "react-countup";
 
 const Statistics = () => {
   return (
-    <section className="statistics h-[642px] flex flex-col justify-center items-center border border-black">
-      <h1 className="font-roboto-slab font-bold text-white text-4xl mb-12">STATISTICS</h1>
+    <section className="statistics h-[402px] flex flex-col justify-evenly items-center border border-black p-12 ">
+      <h1 className="font-roboto-slab font-bold text-white text-4xl ">STATISTICS</h1>
 
       <div className="stats stats-vertical lg:stats-horizontal shadow btn-ghost no-animation hover:bg-none cursor-pointer">
         <div className="stat text-center btn-ghost">

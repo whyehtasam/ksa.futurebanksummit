@@ -11,7 +11,7 @@ import profits1 from "../../assets/profits1.png";
 import tracking1 from "../../assets/tracking1.png";
 
 
- const highlightsData = [
+ export const highlightsData = [
   {
     id: 1,
     path: bank12,
@@ -70,4 +70,14 @@ import tracking1 from "../../assets/tracking1.png";
  
 ];
 
-export default highlightsData;
+export const attendees = [
+  { id: 1, title: 'CIOs, CTOs, Heads of Technology' },
+  { id: 2, title: 'Chief Digital Officers, Heads of Digital Transformation' },
+  { id: 3, title: 'Chief Marketing Officers, Heads of Marketing' },
+  { id: 4, title: 'Heads of Retail Banking' },
+  { id: 5, title: 'Heads of Corporate Banking' },
+  { id: 6, title: 'Heads of Customer Experience' },
+  { id: 7, title: 'Heads of Cards & Payments' },
+  { id: 8, title: 'Head of Data & Analytics' },
+  { id: 9, title: 'Heads of Governance, Risk & Compliance' },
+];
