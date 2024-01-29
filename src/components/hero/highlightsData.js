@@ -90,3 +90,31 @@ export const whyAttendData = [
   { id: '05', title: 'Network with Industry Peers in a solution-oriented environment' },
   { id: '06', title: 'Discuss Significant Partnerships and Collaborations with Industry leaders' },
 ];
+
+export const testimonialsData = [
+  {
+    id: '01',
+    title: 'This product has completely changed the way I approach my work. The efficiency and ease of use are unmatched. I can confidently say that it has improved my productivity by leaps and bounds.',
+    author: 'Saudi Investment Bank'
+  },
+  {
+    id: '02',
+    title: 'I was initially skeptical, but after using this product for a few weeks, I am thoroughly impressed. It has streamlined my workflow and made my daily tasks much more manageable.',
+    author: 'SABB'
+  },
+  {
+    id: '03',
+    title: 'The customer service is top-notch. Any issues I had were quickly resolved by their friendly and knowledgeable staff. I highly recommend this product to anyone in need of a boost in their workflow.',
+    author: 'Bank AlBilad'
+  },
+  {
+    id: '04',
+    title: 'I have been using this product for a few months now and I can say without a doubt that it has made a significant difference in my work. The features are intuitive and easy to use.',
+    author: 'Emily Davis'
+  },
+  {
+    id: '05',
+    title: 'This product is a game-changer. It has helped me stay organized and on top of my work. The user interface is clean and easy to navigate, making it a pleasure to use.',
+    author: 'William Brown'
+  }
+];
