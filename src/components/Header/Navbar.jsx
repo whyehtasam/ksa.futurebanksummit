@@ -21,7 +21,7 @@ const Navbar = () => {
               </label>
             </div>
             <div className="container w-10/12 mx-auto flex justify-between h-full font-oswald ">
-              <div className="h-full "><img src={logo} alt="logo" className='h-full object-contain p-2 lg:p-4 md:p-4 text-white' /></div>
+              <div className="h-full "><img src={logo} alt="logo" className='h-full object-contain p-2 lg:p-2 md:p-4 text-white' /></div>
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal flex justify-evenly items-center w-[830px] cursor-pointer">
                   {/* Navbar menu content here */}
