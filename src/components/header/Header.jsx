@@ -1,6 +1,6 @@
 import logo from '../../assets/Future-Banks-Summit-KSA-2023.png';
 
-const Navbar = () => {
+const Header = () => {
   return (
     <div className="nav-bar">
       <div className="drawer">
@@ -61,4 +61,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Header;

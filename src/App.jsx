@@ -1,4 +1,4 @@
-import Navbar from "./components/header/Navbar"
+import Navbar from "./components/header/Header"
 import Carousel from "./components/carousel/Carousel"
 import EventOverview from "./components/hero/EventOverview"
 import Statistics from "./components/hero/Statistics"
