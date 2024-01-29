@@ -2,7 +2,7 @@ import { whyAttendData } from "./highlightsData";
 import svg from "../../assets/organizing-projects-animate.svg";
 const WhyAttend = () => {
   return (
-    <section className="why-attend-data bg-slate-100 p-16 h-auto">
+    <section id="WhyAttend" className="why-attend-data bg-slate-100 p-16 h-auto">
       <div className="content flex w-10/12 mx-auto h-96">
         <div className="description flex-1">
           <div className="h-full flex flex-col ">

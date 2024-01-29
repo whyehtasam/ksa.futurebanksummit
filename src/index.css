@@ -67,3 +67,6 @@ opacity: 0.27;
 .rating::after {
   content: '⭐⭐⭐⭐⭐';
 }
+html {
+  scroll-behavior: smooth;
+}

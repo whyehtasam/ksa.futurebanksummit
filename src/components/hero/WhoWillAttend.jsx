@@ -4,7 +4,7 @@ import {attendees} from './highlightsData'
 import svg from '../../assets/design-inspiration-animate.svg'
 const WhoWillAttend = () => {
   return (
-    <section className="who-will-attend-main  flex flex-col justify-center items-center bg-sky-700 relative h-auto bg-no-repeat font-roboto">
+    <section  id='WhoWillAttend' className="who-will-attend-main  flex flex-col justify-center items-center bg-sky-700 relative h-auto bg-no-repeat font-roboto">
       <section className="who-will-attend h-[646px] w-full "></section>
       <div className="absolute p-10 left-0 right-0 flex flex-col justify-between"></div>
       <h1 className="font-roboto-slab font-bold text-white text-4xl absolute top-8">

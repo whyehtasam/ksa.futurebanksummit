@@ -1,4 +1,7 @@
 import logo from '../../assets/Future-Banks-Summit-KSA-2023.png';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+
+import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
   return (
@@ -26,7 +29,17 @@ const Header = () => {
                 <ul className="menu menu-horizontal flex justify-evenly items-center w-[830px] cursor-pointer">
                   {/* Navbar menu content here */}
                   <li className="mx-2 text-center h-fit hover:text-white ">HOME</li>
-                  <li className="mx-2 text-center h-fit hover:text-white ">EVENT DETAILS</li>
+                  
+                  <div className="dropdown dropdown-hover no-animation w-fit">
+                  <div className=" text-center h-fit hover:text-white">EVENT DETAILS <FontAwesomeIcon icon={faAngleDown} className='ml-1 mt-1' size='sm' /></div>
+                    <ul className="dropdown-content z-[1] menu bg-base-100 rounded-box text-sky-600 font-poppins w-52 ">
+                     <li><a href='#EventOverview'>EVENT OVERVIEW</a></li>
+                     <li><a href='#TopHighlights'>TOP HIGHLIGHTS</a></li>
+                     <li><a href='#WhoWillAttend'>WHO WILL ATTEND</a></li>
+                     <li><a href='#WhyAttend'>WHY ATTEND</a></li>
+                   </ul>
+                 </div>
+                 
                   <li className="mx-2 text-center h-fit hover:text-white ">SCHEDULE</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li>
