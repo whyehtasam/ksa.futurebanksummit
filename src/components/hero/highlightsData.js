@@ -82,7 +82,7 @@ export const attendees = [
   { id: 9, title: 'Heads of Governance, Risk & Compliance' },
 ];
 
-export const whoWillAttendData = [
+export const whyAttendData = [
   { id: '01', title: 'Gain Knowledge and Insights from Top Industry Leaders and Experts from across the globe' },
   { id: '02', title: 'Network with Industry Peers in a solution-oriented environment' },
   { id: '03', title: 'Discuss Significant Partnerships and Collaborations with Industry leaders' },
