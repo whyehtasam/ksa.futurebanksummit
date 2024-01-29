@@ -81,3 +81,12 @@ export const attendees = [
   { id: 8, title: 'Head of Data & Analytics' },
   { id: 9, title: 'Heads of Governance, Risk & Compliance' },
 ];
+
+export const whoWillAttendData = [
+  { id: '01', title: 'Gain Knowledge and Insights from Top Industry Leaders and Experts from across the globe' },
+  { id: '02', title: 'Network with Industry Peers in a solution-oriented environment' },
+  { id: '03', title: 'Discuss Significant Partnerships and Collaborations with Industry leaders' },
+  { id: '04', title: 'Gain Knowledge and Insights from Top Industry Leaders and Experts from across the globe' },
+  { id: '05', title: 'Network with Industry Peers in a solution-oriented environment' },
+  { id: '06', title: 'Discuss Significant Partnerships and Collaborations with Industry leaders' },
+];

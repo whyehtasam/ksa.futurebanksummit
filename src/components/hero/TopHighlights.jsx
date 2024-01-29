@@ -1,9 +1,7 @@
 import TopHighlightCard from "./TopHighlightCard";
-import img from '../../assets/financial-profit1.png'
 import {highlightsData} from './highlightsData'
 const TopHighlights = () => {
 
-  const title = "VISION 2030 - EMERGENCE OF THE KINGDOM AS A GLOBAL FINANCIAL LEADER";
     
 
   return (

@@ -4,6 +4,7 @@ import EventOverview from "./components/hero/EventOverview"
 import Statistics from "./components/hero/Statistics"
 import TopHighlights from "./components/hero/TopHighlights"
 import WhoWillAttend from "./components/hero/WhoWillAttend"
+import WhyAttend from "./components/hero/WhyAttend"
 import './App.css'
 function App() {
   
@@ -18,6 +19,7 @@ function App() {
       <Statistics />
       <TopHighlights />
       <WhoWillAttend />
+      <WhyAttend />
     </>
   )
 }
