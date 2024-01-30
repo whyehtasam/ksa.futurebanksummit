@@ -10,8 +10,8 @@ const Schedule = () => {
 
   return (
     <section className="schedule bg-white">
-     <Breadcrums/>
-      <div className="sechdule-content bg-white pt-28">
+     <Breadcrums heading='Schedule' link='Schedule'/>
+      <div className="sechdule-content bg-white pt-20">
         <div className="container w-9/12 mx-auto p-3">
           <h2 className="text-5xl text-center font-bold font-oswald">
             4TH ANNUAL FUTURE BANKS SUMMIT KSA 2023
