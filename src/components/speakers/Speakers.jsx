@@ -17,7 +17,7 @@ const Speakers = () => {
 
           <div className="my-16 grid lg:grid-cols-4 md:grid-cols-3 c gap-4">
 
-            {speakersData.map(({id,name,path,role,company}) => <div className="card card-compact flex-1 bg-base-100 shadow-xl hover:scale-[1.01] max-w-64 hover:drop-shadow-lg cursor-pointer" key={id}>
+            {speakersData.map(({id,name,path,role,company}) => <div className="card card-compact flex-1 bg-base-100 shadow-xl hover:scale-[1.01] max-w-64 hover:drop-shadow-lg cursor-pointer transition-all duration-200" key={id}>
               <figure className="">
                 <img
                   src={path}
