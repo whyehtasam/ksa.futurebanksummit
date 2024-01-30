@@ -1,9 +1,11 @@
 {
-    "routes": [
+    "rewrites": [
       {
-        "src": "/(schedule|about|other-route)/",
-        "dest": "/index.html"
-      },
+        "source": "/(schedule|about|other-route)/",
+        "destination": "/index.html"
+      }
+    ],
+    "routes": [
       {
         "handle": "filesystem"
       },
@@ -13,4 +15,3 @@
       }
     ]
   }
-  
