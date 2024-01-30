@@ -1,6 +1,6 @@
 import logo from '../../assets/Future-Banks-Summit-KSA-2023.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-
+import { Link } from 'react-router-dom';
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
 
 const Header = () => {
@@ -28,7 +28,7 @@ const Header = () => {
               <div className="flex-none hidden lg:block">
                 <ul className="menu menu-horizontal flex justify-evenly items-center w-[830px] cursor-pointer">
                   {/* Navbar menu content here */}
-                  <li className="mx-2 text-center h-fit hover:text-white ">HOME</li>
+                  <Link to="/"><li className="mx-2 text-center h-fit hover:text-white ">HOME</li></Link>
                   
                   <div className="dropdown dropdown-hover no-animation w-fit">
                   <div className=" text-center h-fit hover:text-white">EVENT DETAILS <FontAwesomeIcon icon={faAngleDown} className='ml-1 mt-1' size='sm' /></div>
@@ -40,7 +40,7 @@ const Header = () => {
                    </ul>
                  </div>
                  
-                  <li className="mx-2 text-center h-fit hover:text-white ">SCHEDULE</li>
+                  <Link to="/schedule"><li className="mx-2 text-center h-fit hover:text-white ">SCHEDULE</li></Link>     
                   <li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">AWARDS</li>
