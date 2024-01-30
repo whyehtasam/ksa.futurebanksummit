@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import ScheduleContent from "./ScheduleContent";
@@ -28,7 +28,7 @@ const Schedule = () => {
                 className={`flex-1 p-4 ${activeTab === 2 ? "bg-sky-700 rounded font-semibold text-white" : "bg-slate-100 rounded text-sky-700 font-semibold hover:bg-[#222222] hover:text-white "}`}
                 onClick={() => setActiveTab(2)}
               >
-                <FontAwesomeIcon icon={faCalendarDays} className='mx-2 ' />DAY 2 | 12 SEPTEMBER 2023, TUESDAY
+                <FontAwesomeIcon icon={faCalendarDays} className='mx-2 '/>DAY 2 | 12 SEPTEMBER 2023, TUESDAY
               </button>
             </div>
             <div className="w-full py-16 px-6">

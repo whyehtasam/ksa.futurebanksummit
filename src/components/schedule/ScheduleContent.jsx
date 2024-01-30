@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faClock } from "@fortawesome/free-solid-svg-icons";
-import { scheduleData } from "./schedule";
+import { scheduleData } from "./scheduleData";
 const ScheduleContent = () => {
   return (
     <>
