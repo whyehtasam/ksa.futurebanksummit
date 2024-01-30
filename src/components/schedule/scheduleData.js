@@ -103,3 +103,81 @@ export const scheduleData = [
     list: [],
   },
 ];
+
+export const scheduleData2 = [
+  {
+    id: 1,
+    time: "08:00 - 08:30",
+    title: "CHECK-IN & BREAKFAST",
+    list: [],
+  },
+  {
+    id: 2,
+    time: "08:30 - 08:45",
+    title: "WELCOME NOTE BY THE ORGANIZER",
+    list: [],
+  },
+  {
+    id: 3,
+    time: "08:45 - 09:15",
+    title: "KEYNOTE: THE FUTURE OF TECHNOLOGY",
+    list: [
+      "Exploring the latest trends in tech",
+      "How technology is shaping our future",
+      "The role of AI in the next decade",
+    ],
+  },
+  {
+    id: 4,
+    time: "09:15 - 09:45",
+    title: "PANEL DISCUSSION: THE IMPACT OF CLOUD COMPUTING",
+    list: [
+      "The benefits of moving to the cloud",
+      "Security concerns and how to address them",
+      "Choosing the right cloud service for your business",
+    ],
+  },
+  {
+    id: 5,
+    time: "09:45 - 10:15",
+    title: "BREAK & NETWORKING",
+    list: [],
+  },
+  {
+    id: 6,
+    time: "10:15 - 10:45",
+    title: "WORKSHOP: INTRODUCTION TO MACHINE LEARNING",
+    list: [
+      "Understanding the basics of machine learning",
+      "How to implement a simple machine learning model",
+      "Exploring real-world applications of machine learning",
+    ],
+  },
+  {
+    id: 7,
+    time: "10:45 - 11:15",
+    title: "PRESENTATION: THE RISE OF BIG DATA",
+    list: [
+      "What is big data and why it matters",
+      "The challenges of managing big data",
+      "How to extract value from big data",
+    ],
+  },
+  {
+    id: 8,
+    time: "11:15 - 11:45",
+    title: "BREAK & NETWORKING",
+    list: [],
+  },
+  {
+    id: 9,
+    time: "11:45 - 12:15",
+    title: "DEMO: LATEST VR TECHNOLOGIES",
+    list: [
+      "Exploring the latest advancements in VR",
+      "How VR is being used in different industries",
+      "The future of VR",
+    ],
+  },
+
+];

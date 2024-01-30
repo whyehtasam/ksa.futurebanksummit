@@ -1,10 +1,10 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCaretRight, faClock } from "@fortawesome/free-solid-svg-icons";
-import { scheduleData } from "./scheduleData";
-const ScheduleContent = () => {
+
+const ScheduleContent = ({data}) => {
   return (
     <>
-      {scheduleData.map((item) => (
+      {data.map((item) => (
         <div className="ScheduleContent flex flex-col gap-4 font-poppins py-4" key={item.id}>
           <div className="time text-blue-600 font-semibold">
             <FontAwesomeIcon className="mr-2 text-yellow-400" icon={faClock} />

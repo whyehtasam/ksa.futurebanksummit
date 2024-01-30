@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendarDays } from '@fortawesome/free-solid-svg-icons'
 import ScheduleContent from "./ScheduleContent";
 import Breadcrums from "../Breadcrums";
+import { scheduleData,scheduleData2 } from "./scheduleData";
 
 const Schedule = () => {
   const [activeTab, setActiveTab] = useState(1);
@@ -10,7 +11,7 @@ const Schedule = () => {
   return (
     <section className="schedule bg-white">
      <Breadcrums/>
-      <div className="sechdule-content bg-white py-28">
+      <div className="sechdule-content bg-white pt-28">
         <div className="container w-9/12 mx-auto p-3">
           <h2 className="text-5xl text-center font-bold font-oswald">
             4TH ANNUAL FUTURE BANKS SUMMIT KSA 2023
@@ -32,9 +33,9 @@ const Schedule = () => {
               </button>
             </div>
             <div className="w-full py-16 px-6">
-              {activeTab === 1 && <div><ScheduleContent/></div>}
-              {activeTab === 2 && <div><ScheduleContent /></div>}
-              <button className="btn no-animation bg-violet-800 text-white border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
+              {activeTab === 1 && <div><ScheduleContent  data={scheduleData}/></div>}
+              {activeTab === 2 && <div><ScheduleContent    data={scheduleData2}/></div>}
+              <button className="btn no-animation mt-8 bg-violet-800 text-white border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
             </div>
             
           </div>
