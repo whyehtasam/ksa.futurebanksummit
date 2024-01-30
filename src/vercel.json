@@ -3,6 +3,10 @@
       {
         "source": "/(schedule|about|other-route)/",
         "destination": "/index.html"
+      },
+      {
+        "source": "/(.*)",
+        "destination": "/index.html"
       }
     ],
     "routes": [
