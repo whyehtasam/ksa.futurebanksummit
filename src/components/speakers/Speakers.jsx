@@ -33,9 +33,7 @@ const Speakers = () => {
                 <FontAwesomeIcon icon={faLinkedinIn} className="hover:text-sky-600" size="2x" />
               </div>
             </div>)}
-            
-
-
+          
           </div>
         </div>
       </div>
