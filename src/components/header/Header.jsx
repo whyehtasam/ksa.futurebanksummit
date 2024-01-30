@@ -41,7 +41,7 @@ const Header = () => {
                  </div>
                  
                   <Link to="/schedule"><li className="mx-2 text-center h-fit hover:text-white ">SCHEDULE</li></Link>     
-                  <li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li>
+                  <Link to="/speakers"><li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li></Link>     
                   <li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">AWARDS</li>
                   <li className="mx-2 text-center h-fit hover:text-white ">GALLERY</li>

@@ -11,6 +11,7 @@ import Testimonials from "./components/hero/Testimonials";
 import Footer from "./components/footer/Footer";
 
 import Schedule from "./components/schedule/Schedule";
+import Speakers from './components/speakers/Speakers';
 import "./App.css";
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
     <Navbar />
     <Routes>
       <Route path="/schedule" element={<Schedule />} />
+      <Route path="/speakers" element={<Speakers />} />
       <Route path="/" element={
         <>
           <Carousel />

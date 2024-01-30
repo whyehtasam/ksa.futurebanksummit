@@ -94,7 +94,7 @@ const Carousel = (props) => {
     }
   }, [zoom]);
   return (
-    <div className="w-full m-auto">
+    <div className="w-full m-auto bg-white">
       <Slider {...settings}>
         {imagePath.map((item, index) => {
           return (
@@ -105,7 +105,7 @@ const Carousel = (props) => {
               <img
                 src={item.path}
                 alt="imgs"
-                className="object-cover m-auto w-full"
+                className="object-fill m-auto w-full"
               />
             </div>
           );
