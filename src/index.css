@@ -73,7 +73,7 @@ html {
 
 .award-video {
   opacity: 0;
-  transition: opacity 1s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
 }
 
 .award-video.video-visible {
