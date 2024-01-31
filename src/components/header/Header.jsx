@@ -45,7 +45,16 @@ const Header = () => {
                   <Link to="/partners"><li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li></Link>
                   <Link to="/awards"><li className="mx-2 text-center h-fit hover:text-white ">AWARDS</li></Link>
                   <Link to="/gallery"><li className="mx-2 text-center h-fit hover:text-white ">GALLERY</li></Link>
-                  <li className="mx-2 text-center h-fit hover:text-white ">CONTACT US</li>
+
+                  <div className="dropdown dropdown-hover no-animation w-fit">
+                  <div className=" text-center h-fit hover:text-white">CONTACT US
+                   <FontAwesomeIcon icon={faAngleDown} className='ml-1 mt-1' size='sm' /></div>
+                    <ul className="dropdown-content z-[1] menu bg-base-100 rounded-box text-sky-600 font-poppins w-52 ">
+                     <li><Link to="/contact">CONTACT US</Link></li>
+                     <li><a href='#TopHighlights'>ABOUT VERVE</a></li>
+                   </ul>
+                 </div>
+                  
                   <button className="btn no-animation bg-sky-500 hover:text-white border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
                 </ul>
               </div>
