@@ -44,7 +44,7 @@ const Header = () => {
                   <Link to="/speakers"><li className="mx-2 text-center h-fit hover:text-white ">SPEAKERS</li></Link>     
                   <Link to="/partners"><li className="mx-2 text-center h-fit hover:text-white ">PARTNERS</li></Link>
                   <Link to="/awards"><li className="mx-2 text-center h-fit hover:text-white ">AWARDS</li></Link>
-                  <li className="mx-2 text-center h-fit hover:text-white ">GALLERY</li>
+                  <Link to="/gallery"><li className="mx-2 text-center h-fit hover:text-white ">GALLERY</li></Link>
                   <li className="mx-2 text-center h-fit hover:text-white ">CONTACT US</li>
                   <button className="btn no-animation bg-sky-500 hover:text-white border-none btn-ghost px-8 rounded opacity-100 hover:rounded-xl hover:bg-sky-600 transition-all duration-500">REGISTER</button>
                 </ul>

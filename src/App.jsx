@@ -14,6 +14,7 @@ import Schedule from "./components/schedule/Schedule";
 import Speakers from './components/speakers/Speakers';
 import Partners from './components/partners/Partners';
 import Awards from './components/awards/Awards';
+import Gallery from './components/gallery/Gallery';
 import "./App.css";
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       <Route path="/speakers" element={<Speakers />} />
       <Route path="/partners" element={<Partners />} />
       <Route path="/awards" element={<Awards />} />
+      <Route path="/gallery" element={<Gallery/>} />
       <Route path="/" element={
         <>
           <Carousel />
