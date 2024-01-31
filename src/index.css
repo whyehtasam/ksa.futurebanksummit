@@ -70,3 +70,25 @@ opacity: 0.27;
 html {
   scroll-behavior: smooth;
 }
+
+.award-video {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.award-video.video-visible {
+  opacity: 1;
+}
+
+.container-video{
+  overflow-x: hidden;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Edge */
+}
+
+.container-video::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, and Opera */
+}
+body, html {
+  overflow-x: hidden;
+}

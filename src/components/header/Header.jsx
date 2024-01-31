@@ -1,7 +1,7 @@
 import logo from '../../assets/Future-Banks-Summit-KSA-2023.png';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { Link } from 'react-router-dom';
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
