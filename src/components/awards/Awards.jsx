@@ -48,7 +48,7 @@ const Awards = () => {
             </p>
           </div>
         </div>
-        <div className="bg-white mt-64">
+        <div className="bg-white py-10 w-8/12 mx-auto">
 
         <AwardHero />
         </div>
